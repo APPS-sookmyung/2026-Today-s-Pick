@@ -1,0 +1,37 @@
+.navbar {
+  padding: 10px;
+  display: flex; /*자식 요소 정렬 위한 flex 변경*/
+  flex-direction: row; /*세로 방향 배치*/
+}
+
+.nav-container { /*로고 박스*/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo-text {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+}
+
+.fav-page-btn {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 80%;
+}
+
+.home-link { /*홈 버튼*/
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+.favor-link { /*찜 버튼*/
+    text-decoration: none;
+    margin-right:10px ;
+    color: black;
+}

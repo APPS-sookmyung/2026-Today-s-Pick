@@ -1,0 +1,13 @@
+.heart-button {
+    background-color: transparent;
+    padding : 0px;
+    border : none;
+}
+
+.heart-button img{
+    width: 50px;
+}
+
+.food-image{
+    width: 200px;
+}

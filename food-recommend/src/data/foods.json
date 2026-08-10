@@ -1,0 +1,730 @@
+[{
+    "id": 1,
+    "name": "김치찌개",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20stew%20dish%20-%20Kimchi-jjigae%20Kimchi%20Stew%202019%20%2801%29.jpg?width=960",
+    "description": "얼큰하고 따뜻한 국물 요리",
+    "category": "한식",
+    "mood": [
+      "스트레스",
+      "평범"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "가족"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "된장찌개",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doenjang%20Jjigae.jpg?width=960",
+    "description": "구수하고 편안하게 즐길 수 있는 찌개 요리",
+    "category": "한식",
+    "mood": [
+      "피곤",
+      "평범"
+    ],
+    "weather": [
+      "비",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "순두부찌개",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sundubu-jjigae.jpg?width=960",
+    "description": "부드러운 순두부와 얼큰한 국물이 어우러진 요리",
+    "category": "한식",
+    "mood": [
+      "스트레스",
+      "피곤"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "가족"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "비빔밥",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bibimbap%2C%20the%20symbol%20of%20Korea.jpg?width=960",
+    "description": "다양한 나물과 고추장을 함께 비벼 먹는 한 그릇 요리",
+    "category": "한식",
+    "mood": [
+      "평범",
+      "행복"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "가족"
+    ],
+    "etc": [
+      "가벼운 음식",
+      "든든한 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "삼겹살",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Korean_barbecue_-_moksal%2C_samgyeopsal%2C_beoseot%2C_and_meljeot_on_a_gridiron.jpg?width=960",
+    "description": "불판에 구워 함께 즐기기 좋은 고기 요리",
+    "category": "한식",
+    "mood": [
+      "행복",
+      "스트레스"
+    ],
+    "weather": [
+      "맑음",
+      "추움"
+    ],
+    "situation": [
+      "친구랑",
+      "데이트",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "제육볶음",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jeyuk-bokkeum%2C_Korean_food_02.jpg?width=960",
+    "description": "매콤한 양념에 돼지고기를 볶아낸 든든한 요리",
+    "category": "한식",
+    "mood": [
+      "스트레스",
+      "피곤"
+    ],
+    "weather": [
+      "맑음",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "가족"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "냉면",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Naengmyeon.jpg?width=960",
+    "description": "시원한 육수와 쫄깃한 면을 즐길 수 있는 요리",
+    "category": "한식",
+    "mood": [
+      "평범",
+      "피곤"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "가족"
+    ],
+    "etc": [
+      "차가운 음식",
+      "가벼운 음식"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "떡볶이",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tteokbokki.JPG?width=960",
+    "description": "쫄깃한 떡에 매콤달콤한 양념을 더한 분식",
+    "category": "분식",
+    "mood": [
+      "스트레스",
+      "행복"
+    ],
+    "weather": [
+      "비",
+      "추움"
+    ],
+    "situation": [
+      "친구랑",
+      "데이트",
+      "야식"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "라면",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ramyeon.jpg?width=960",
+    "description": "간편하게 즐길 수 있는 얼큰하고 따뜻한 면 요리",
+    "category": "분식",
+    "mood": [
+      "피곤",
+      "스트레스",
+      "평범"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "야식"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "김밥",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gimbap_Kimbap_Korean_food_02.jpg?width=960",
+    "description": "다양한 재료를 밥과 김으로 말아 만든 간편한 음식",
+    "category": "분식",
+    "mood": [
+      "평범",
+      "피곤"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑"
+    ],
+    "etc": [
+      "가벼운 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "치킨",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Korean_fried_chicken_5.jpg?width=960",
+    "description": "바삭한 튀김옷과 촉촉한 닭고기를 즐기는 인기 메뉴",
+    "category": "패스트푸드",
+    "mood": [
+      "행복",
+      "스트레스"
+    ],
+    "weather": [
+      "비",
+      "맑음"
+    ],
+    "situation": [
+      "친구랑",
+      "가족",
+      "야식"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "햄버거",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburger%20%28black%20bg%29.jpg?width=960",
+    "description": "고기 패티와 채소를 빵 사이에 넣은 간편한 한 끼",
+    "category": "패스트푸드",
+    "mood": [
+      "평범",
+      "행복",
+      "피곤"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "데이트"
+    ],
+    "etc": [
+      "든든한 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "피자",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20%281%29.jpg?width=960",
+    "description": "치즈와 다양한 토핑을 올려 구워낸 요리",
+    "category": "양식",
+    "mood": [
+      "행복",
+      "스트레스"
+    ],
+    "weather": [
+      "맑음",
+      "비"
+    ],
+    "situation": [
+      "친구랑",
+      "데이트",
+      "가족",
+      "야식"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "크림파스타",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Creamy_Mushroom_Pasta.jpg?width=960",
+    "description": "부드럽고 고소한 크림소스가 어우러진 면 요리",
+    "category": "양식",
+    "mood": [
+      "행복",
+      "평범"
+    ],
+    "weather": [
+      "맑음",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "데이트",
+      "친구랑"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "토마토파스타",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tomato_sauce_spaghetti%2C_at_Restaurant_Gusto_%282013.07.13%29_2.jpg/1280px-Tomato_sauce_spaghetti%2C_at_Restaurant_Gusto_%282013.07.13%29_2.jpg",
+    "description": "상큼한 토마토소스와 면이 어우러진 양식 메뉴",
+    "category": "양식",
+    "mood": [
+      "행복",
+      "평범"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "데이트",
+      "친구랑",
+      "혼밥"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "가벼운 음식"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "샌드위치",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandwich%20%281%29.jpg?width=960",
+    "description": "빵 사이에 신선한 채소와 재료를 넣은 간편한 음식",
+    "category": "양식",
+    "mood": [
+      "피곤",
+      "평범"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "데이트"
+    ],
+    "etc": [
+      "가벼운 음식",
+      "차가운 음식"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "샐러드",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Food%20salad.jpg?width=960",
+    "description": "신선한 채소를 가볍게 즐길 수 있는 메뉴",
+    "category": "양식",
+    "mood": [
+      "평범",
+      "피곤"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "데이트"
+    ],
+    "etc": [
+      "가벼운 음식",
+      "차가운 음식"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "짜장면",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jajangmyeon.jpg?width=960",
+    "description": "달콤하고 고소한 춘장 소스를 비벼 먹는 면 요리",
+    "category": "중식",
+    "mood": [
+      "평범",
+      "행복"
+    ],
+    "weather": [
+      "맑음",
+      "비"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "짬뽕",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jjamppong%2020241006%20001.jpg?width=960",
+    "description": "해산물과 채소가 들어간 얼큰한 국물 면 요리",
+    "category": "중식",
+    "mood": [
+      "스트레스",
+      "피곤"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "가족"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "탕수육",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tangsuyuk.jpg?width=960",
+    "description": "바삭하게 튀긴 고기에 새콤달콤한 소스를 곁들인 요리",
+    "category": "중식",
+    "mood": [
+      "행복",
+      "스트레스"
+    ],
+    "weather": [
+      "맑음",
+      "비"
+    ],
+    "situation": [
+      "친구랑",
+      "데이트",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "마라탕",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Malatang_from_South_Korea.jpg/960px-Malatang_from_South_Korea.jpg",
+    "description": "다양한 재료를 얼얼하고 매콤한 국물에 끓인 요리",
+    "category": "중식",
+    "mood": [
+      "스트레스",
+      "행복"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "야식"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "초밥",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Salmon_nigiri_sushi.jpg/960px-Salmon_nigiri_sushi.jpg",
+    "description": "밥 위에 신선한 해산물을 올려 만든 깔끔한 요리",
+    "category": "일식",
+    "mood": [
+      "행복",
+      "평범"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "혼밥",
+      "데이트",
+      "가족"
+    ],
+    "etc": [
+      "차가운 음식",
+      "가벼운 음식"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "돈까스",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkatsu%20001.jpg?width=960",
+    "description": "돼지고기에 튀김옷을 입혀 바삭하게 튀긴 요리",
+    "category": "일식",
+    "mood": [
+      "행복",
+      "평범"
+    ],
+    "weather": [
+      "맑음",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "우동",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Udong.jpg?width=960",
+    "description": "쫄깃한 면과 담백하고 따뜻한 국물이 어우러진 요리",
+    "category": "일식",
+    "mood": [
+      "피곤",
+      "평범"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "가벼운 음식",
+      "저렴한 음식"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "라멘",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ramen_with_eggs.jpg?width=960",
+    "description": "진한 육수와 면, 다양한 고명을 함께 즐기는 요리",
+    "category": "일식",
+    "mood": [
+      "스트레스",
+      "피곤"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "쌀국수",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pho%20noodle%20soup.jpg?width=960",
+    "description": "향긋하고 담백한 육수에 쌀면을 넣은 요리",
+    "category": "아시안",
+    "mood": [
+      "피곤",
+      "평범"
+    ],
+    "weather": [
+      "비",
+      "추움"
+    ],
+    "situation": [
+      "혼밥",
+      "친구랑",
+      "데이트"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "가벼운 음식"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "샤브샤브",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Shabu_Shabu_photo_Don_Ramey_Logan.jpg/960px-Shabu_Shabu_photo_Don_Ramey_Logan.jpg",
+    "description": "채소와 고기를 따뜻한 육수에 익혀 먹는 요리",
+    "category": "아시안",
+    "mood": [
+      "행복",
+      "피곤"
+    ],
+    "weather": [
+      "비",
+      "눈",
+      "추움"
+    ],
+    "situation": [
+      "친구랑",
+      "데이트",
+      "가족"
+    ],
+    "etc": [
+      "따뜻한 음식",
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "닭발",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20Boneless%20Chicken%20Feet.jpg?width=960",
+    "description": "쫄깃한 식감과 강렬한 매운맛을 즐길 수 있는 메뉴",
+    "category": "한식",
+    "mood": [
+      "스트레스",
+      "행복"
+    ],
+    "weather": [
+      "비",
+      "추움"
+    ],
+    "situation": [
+      "친구랑",
+      "야식"
+    ],
+    "etc": [
+      "매운 음식",
+      "따뜻한 음식"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "족발",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean%20food%20Jokbal%2C%20Jok-Bal.jpg?width=960",
+    "description": "부드럽고 쫄깃한 돼지고기를 즐길 수 있는 요리",
+    "category": "한식",
+    "mood": [
+      "행복",
+      "스트레스"
+    ],
+    "weather": [
+      "맑음",
+      "추움"
+    ],
+    "situation": [
+      "친구랑",
+      "가족",
+      "야식"
+    ],
+    "etc": [
+      "든든한 음식"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "빙수",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patbingsu.jpg?width=960",
+    "description": "얼음과 달콤한 토핑을 함께 즐기는 시원한 디저트",
+    "category": "디저트",
+    "mood": [
+      "행복",
+      "스트레스"
+    ],
+    "weather": [
+      "맑음",
+      "더움"
+    ],
+    "situation": [
+      "친구랑",
+      "데이트"
+    ],
+    "etc": [
+      "차가운 음식",
+      "가벼운 음식"
+    ]
+  }
+]
