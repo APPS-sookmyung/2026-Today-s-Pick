@@ -5,15 +5,16 @@ import Homepage from "./pages/HomePage";
 import Recommend from "./pages/RecommendPage";
 import Result from "./pages/ResultPage";
 import './App.css'
-import foodData from "./data/foods.json"
+import FoodData from "./data/foods.json"
 import Favorites from "./pages/FavoritesPage"; 
+import Roulette from "./pages/RoulettePage";
 
 export default function App() {
 
 
   // 좋아요 여부 확인 속성 추가 후 상태로 관리
   const [foods, setFoods] = useState(
-    foodData.map((food)=> ({...food, isLike: false})),
+    FoodData.map((food)=> ({...food, isLike: false})),
   );
   //3가지 기본 추천 조건과 선호 조건을 하나의 객체 상태로 관리
   const [category, setCategory] = useState( 
@@ -39,9 +40,22 @@ export default function App() {
       
       <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/recommend" element={<Recommend category={category} setCategory={setCategory} />}/>
-          <Route path="/recommend/result" element={<Result foods={foods} category={category} onToggle = {toggleHeart} />}/>
-          <Route path="/favorites" element={<Favorites foods={foods.filter((food) => food.isLike)} onToggle={toggleHeart}/>}></Route>
+          <Route 
+          path="/recommend" 
+          element={<Recommend category={category} setCategory={setCategory} />}
+          />
+          <Route 
+          path="/recommend/result" 
+          element={<Result foods={foods} category={category} onToggle = {toggleHeart} />}
+          />
+          <Route 
+          path="/favorites" 
+          element={<Favorites foods={foods.filter((food) => food.isLike)} onToggle={toggleHeart}/>}
+          />
+          <Route
+          path="/roulette"
+          element={<Roulette />} 
+          />
       </Routes>
     </BrowserRouter>    
   );
