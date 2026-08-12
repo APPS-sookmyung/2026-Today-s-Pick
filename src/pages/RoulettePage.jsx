@@ -88,7 +88,7 @@ function Roulette(){
         </p>
 
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
-          메뉴 룰렛 🎡
+          메뉴 룰렛 
         </h1>
 
         <p className="text-gray-500">
@@ -275,7 +275,7 @@ function Roulette(){
         ) : (
           <div className="flex items-center justify-center h-[250px]">
             <p className="text-gray-300">
-              메뉴를 추가하면 룰렛이 나타나요 🎡
+              메뉴를 추가하면 룰렛이 나타나요 
             </p>
           </div>
         )}
@@ -298,7 +298,7 @@ function Roulette(){
           }
         `}
       >
-        {mustSpin ? "돌아가는 중... 🎡" : "룰렛 돌리기 🎡"}
+        {mustSpin ? "돌아가는 중... " : "룰렛 돌리기 "}
       </button>
 
     </div>

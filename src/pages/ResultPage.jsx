@@ -92,15 +92,15 @@ function Result({foods, category, onToggle}){
 
         <div className="flex flex-wrap gap-2">
           <span className="px-4 py-2 bg-red-50 text-red-500 rounded-full text-sm">
-            😊 {category.mood}
+             {category.mood}
           </span>
 
           <span className="px-4 py-2 bg-blue-50 text-blue-500 rounded-full text-sm">
-            ☀️ {category.weather}
+             {category.weather}
           </span>
 
           <span className="px-4 py-2 bg-yellow-50 text-yellow-600 rounded-full text-sm">
-            🍽 {category.situation}
+             {category.situation}
           </span>
 
           {category.etc.length > 0 ? (
@@ -242,7 +242,7 @@ function Result({foods, category, onToggle}){
                    hover:-translate-y-0.5
                    transition"
       >
-        🎡 룰렛 돌리기
+        룰렛 돌리기
       </button>
 
     </div>

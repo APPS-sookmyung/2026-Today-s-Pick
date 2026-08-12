@@ -10,7 +10,7 @@ function Header() {
           to="/"
           className="text-xl font-bold text-red-500"
         >
-          오늘 뭐 먹지? 🍅
+          오늘 뭐 먹지? 
         </Link>
 
         {/* 우측 메뉴 */}

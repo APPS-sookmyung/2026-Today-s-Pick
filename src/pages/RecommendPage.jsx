@@ -187,7 +187,7 @@ function RecommendPage({category,setCategory}) {
           }
         `}
       >
-        {isComplete ? "오늘의 메뉴 추천받기 🍅" : "필수 조건을 선택해 주세요"}
+        {isComplete ? "오늘의 메뉴 추천받기 " : "필수 조건을 선택해 주세요"}
       </button>
 
     </div>

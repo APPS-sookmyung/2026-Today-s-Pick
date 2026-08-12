@@ -13,7 +13,7 @@ function HomePage() {
 
         {/* 메인 제목 */}
         <h1 className="text-5xl font-bold text-gray-900 mb-5">
-          오늘 뭐 먹지? 🍅
+          오늘 뭐 먹지? 
         </h1>
 
         {/* 설명 */}
@@ -45,23 +45,7 @@ function HomePage() {
           메뉴 추천받기 →
         </Link>
 
-        {/* 간단한 특징 */}
-        <div className="flex justify-center gap-8 mt-12 text-sm text-gray-400">
-          <div>
-            <span className="block text-2xl mb-2">😊</span>
-            기분에 맞게
-          </div>
-
-          <div>
-            <span className="block text-2xl mb-2">☀️</span>
-            날씨에 맞게
-          </div>
-
-          <div>
-            <span className="block text-2xl mb-2">🍽️</span>
-            상황에 맞게
-          </div>
-        </div>
+        
 
       </div>
     </main>
