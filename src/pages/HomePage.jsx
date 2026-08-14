@@ -16,14 +16,7 @@ function HomePage() {
           오늘 뭐 먹지? 
         </h1>
 
-        {/* 설명 */}
-        <p className="text-gray-500 text-lg leading-8 mb-3">
-          매일 반복되는 메뉴 고민,
-        </p>
-
-        <p className="text-gray-500 text-lg leading-8 mb-10">
-          오늘의 기분과 상황에 딱 맞는 음식을 추천해드려요.
-        </p>
+     
 
         {/* 추천 시작 */}
         <Link
