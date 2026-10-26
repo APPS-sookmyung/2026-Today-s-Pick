@@ -1,21 +1,31 @@
-import { useState } from 'react';
+import { useState, useEffect } from "react";
+import foodData from "./data/foods.json";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Homepage from "./pages/HomePage";
 import Recommend from "./pages/RecommendPage";
 import Result from "./pages/ResultPage";
 import './App.css'
-import FoodData from "./data/foods.json"
 import Favorites from "./pages/FavoritesPage"; 
 import Roulette from "./pages/RoulettePage";
+import FoodDetailPage from "./pages/FoodDetailPage";
 
 export default function App() {
 
+  // 저장되어 있는 찜 id 가져오기
+const [foods, setFoods] = useState(() => {
+  const saved = localStorage.getItem("favoriteFoods");
 
-  // 좋아요 여부 확인 속성 추가 후 상태로 관리
-  const [foods, setFoods] = useState(
-    FoodData.map((food)=> ({...food, isLike: false})),
-  );
+  const savedLikes = saved
+    ? JSON.parse(saved)
+    : [];
+
+  return foodData.map((food) => ({
+    ...food,
+    isLike: savedLikes.includes(food.id)
+  }));
+});
+
   //3가지 기본 추천 조건과 선호 조건을 하나의 객체 상태로 관리
   const [category, setCategory] = useState( 
     {
@@ -24,6 +34,21 @@ export default function App() {
         situation:"",
         etc : []
     });
+
+    // foods의 찜 상태가 변경될 때마다 localStorage 저장
+  useEffect(() => {
+
+    const likedFoods = foods
+      .filter((food) => food.isLike)
+      .map((food) => food.id);
+
+    localStorage.setItem(
+      "favoriteFoods",
+      JSON.stringify(likedFoods)
+    );
+
+  }, [foods]);
+
 
     const toggleHeart = (id) => {
       setFoods((prevFoods)=>
@@ -56,6 +81,12 @@ export default function App() {
           path="/roulette"
           element={<Roulette />} 
           />
+      
+          <Route
+          path="/foods/:id"
+          element={ <FoodDetailPage foods={foods} onToggle={toggleHeart}/>}
+          />
+
       </Routes>
     </BrowserRouter>    
   );
